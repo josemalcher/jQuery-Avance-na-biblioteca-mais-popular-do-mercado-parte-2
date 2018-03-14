@@ -1,6 +1,5 @@
 #  jQuery: Avance na biblioteca mais popular do mercado parte 2 
 
-
 ---
 
 ## <a name="indice">Índice</a>
