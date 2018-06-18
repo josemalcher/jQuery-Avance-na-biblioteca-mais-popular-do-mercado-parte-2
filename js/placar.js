@@ -1,3 +1,4 @@
+$("#botao-placar").click(mostraPlacar);
 
 function inserePlacar() {
     var corpoTable = $(".placar").find("tbody");
@@ -31,14 +32,16 @@ function novaLinha(usuario, palavras) {
     linha.append(colunaUsuario);
     linha.append(colunaPalavras);
     linha.append(colunaRemover);
-
     return linha;
-
 }
 
 function removeLinha() {
-
     event.preventDefault();
     $(this).parent().parent().remove();
+}
+
+function mostraPlacar() {
+    //$(".placar").css("display", "block");
+    $(".placar").slideToggle(800);
 
 }

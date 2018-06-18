@@ -14,7 +14,46 @@
 
 ---
 
-## <a name="parte1">1.As funções de animaçao do Jquery</a>
+## <a name="parte1">1.As funções de animação do Jquery</a>
+
+### Aula 01
+```html
+<div class="botoes">
+    <a id="botao-reiniciar" class="btn-floating btn-large waves-effect waves-light red">
+        <i class="material-icons">restore</i>
+    </a>
+    <!-- NOVO BOTÃO AQUI -->
+    <a id="botao-placar" class="btn-floating btn-large waves-effect waves-light green">
+        <i class="material-icons">assignment</i>
+    </a>
+</div>
+
+```
+
+```css
+body {
+    overflow: scroll;
+}
+
+.placar {
+    display: none;
+}
+```
+
+```js
+$("#botao-placar").click(mostraPlacar);
+
+function mostraPlacar() {
+    //$(".placar").show();
+    //$(".placar").toggle();
+    $(".placar").slideToggle(600);
+}
+```
+
+### Aula 02
+
+
+
 
 
 [Voltar ao Índice](#indice)
